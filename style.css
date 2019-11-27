@@ -1,0 +1,23 @@
+body {
+    background-image: url("assets/images/vichy.png");
+}
+
+header {
+    height: 10vh;
+}
+
+hr {
+    border: 1.5px solid lightgray
+}
+
+p {
+    line-height: 1.5;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    border-top: 8px solid #4aaaa5;
+    height: 60px;
+    background-color: darkgray;
+}

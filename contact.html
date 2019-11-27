@@ -6,43 +6,48 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HW2 - Contact</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 <body>
 
-        
-        <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        
-                    <!-- <a class="navbar-brand" href="#">Robert Cavalero</a> -->
-        
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>      
-        
-                        <div class="navbar-text bg-info text-white px-3">
-                        <h1>Robert Cavalero</h1>
-                        </div>  
-        
-                    <!-- <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup"> -->
-                            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        
-                                <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
-                        <ul class="navbar-nav ">
-        
-                            <!-- <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a> -->
-                            <li> <a class="nav-item nav-link" href="index.html">About</a> </li>
-                            <li><a class="nav-item nav-link" href="portfolio.html">Portfolio</a> </li>
-                            <li><a class="nav-item nav-link" href="contact.html">Contact</a> </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        
-    <div class = "container">
+    <header class ="mb-5">
+        <nav class="navbar  navbar-expand-md fixed-top navbar-light bg-light">
+            <div class = "container">
+                <div class= "row w-100">
+                        
+                    <div class = "col-sm-12 w-100 col-md-6 ">
+                        <h1 class = "navbar-text bg-info text-white h-100 p-2">Robert Cavalero</h1>
+                    </div>  
     
+                    <div class="col-sm-0 col-md-6">
+                            
+                        <div class="container d-flex flex-row navbar-nav justify-content-end pt-3 " >
+                            <a class="nav-item nav-link p-3" href="index.html">About</a> 
+                            <a class="nav-item nav-link p-3" href="portfolio.html">Portfolio</a> 
+                            <a class="nav-item nav-link p-3" href="contact.html">Contact</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+                
+    <div class = "container mt-4 py-4 bg-light ">
+    
+        <div class="row ">
+            <div class="col text-info">
+                <h2>Contact</h2>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col">
+                <hr>
+            </div>
+        </div>  
+        
         <div class= "row">
-
             <div class = "col">
                 <form>
 
@@ -53,21 +58,26 @@
 
                     <div class="form-group">
                         <label for="contactInputEmail">Email</label>
-                        <input type="email" class="form-control" id="contactInputEmail" aria-describedby="emailHelp" placeholder="example@gmail.com">
+                        <input type="email" class="form-control" id="contactInputEmail" placeholder="example@gmail.com">
                     </div>
 
                     <div class="form-group">
                         <label for="contactTextarea">Message</label>
                         <textarea class="form-control" id="contactTextarea" rows="5"></textarea>
                     </div>
-                        <!-- </div> -->
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-primary bg-info">Submit</button>
                 </form>   
             </div>  
         </div>
     </div>
 
-              <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <footer class = "footer mt-5">
+        <div class="container w-100">
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
                     
